@@ -1,0 +1,60 @@
+@media screen and (max-width: 1023px) {
+    .mainContent {
+        justify-content: center;
+        height: 100%;
+    }
+
+    .mainContentLeft h2 {
+        font-size: 1.5em;
+    }
+    
+    
+    #mainPaginator {
+        bottom: 110px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .DesktopItems {
+        display: none;
+    }
+    
+    .MobileItems {
+        display: flex;
+    }
+    
+    header .fa {
+        font-size: 2em;
+    }
+    
+    .mainContent {
+        justify-content: center;
+        height: 100%;        
+    }
+
+    .mainContentLeft {        
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mainContentLeft h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    #mainPaginator {
+        max-height: 20px;
+        bottom: 84px;
+    }
+    
+    footer {
+        height: 68px;
+        z-index: 9;
+    }
+    
+    #footerContent {
+        align-items: center;
+        justify-content: center;
+    }
+}
